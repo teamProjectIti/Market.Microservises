@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Catalog.Api.Controllers
+namespace Discound.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

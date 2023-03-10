@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Catalog.Api.Controllers
+namespace Basket.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
