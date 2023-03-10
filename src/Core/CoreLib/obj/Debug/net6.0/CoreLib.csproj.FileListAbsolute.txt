@@ -1,0 +1,12 @@
+D:\market\Market.Microservises\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.deps.json
+D:\market\Market.Microservises\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.dll
+D:\market\Market.Microservises\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.pdb
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.csproj.AssemblyReference.cache
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.AssemblyInfoInputs.cache
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.AssemblyInfo.cs
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.csproj.CoreCompileInputs.cache
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.dll
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\refint\CoreLib.dll
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.pdb
+D:\market\Market.Microservises\src\Core\CoreLib\obj\Debug\net6.0\ref\CoreLib.dll
