@@ -1,6 +1,5 @@
 ﻿using Catalog.Api.Controllers;
 using Microsoft.AspNetCore.Mvc;
-using static Catalog.Api.repositery.Product.IMongoRepository;
 using System;
 using Data.Entities.Catalog.Products;
 using Dto.Catalog.Product;
@@ -10,32 +9,43 @@ namespace Catalog.Api.Area
 {
     public class ProductController : BaseController
     {
-        private readonly IMongoRepository<Product> _peopleRepository;
+        private readonly IMongoRepository<Product> _ProductRepository;
         private readonly IMapper _mapper;
 
-        public ProductController(IMongoRepository<Product> peopleRepository, IMapper mapper)
+        public ProductController(IMongoRepository<Product> ProductRepository, IMapper mapper)
         {
-            _peopleRepository = peopleRepository;
+            _ProductRepository = ProductRepository;
             _mapper = mapper;
         }
 
-        [HttpPost("registerPerson")]
-        public async Task AddPerson(ProductDto model)
+        [HttpPost("AddProduct")]
+        public async Task<ActionResult> AddProduct(ProductDto model)
         {
-
+            //if (!ModelState.IsValid)
+            //{
+            //    return BadRequest(ModelState);
+            //}
             var result = _mapper.Map<Product>(model);
 
-            await _peopleRepository.InsertOneAsync(result);
+            await _ProductRepository.InsertOneAsync(result);
+            return Ok(result);
         }
 
-        [HttpGet("getProductData")]
-        public IEnumerable<string> getProductData()
+        [HttpGet("GetAllProductData")]
+        public async Task<ActionResult> GetAllProductData()
         {
-            var people = _peopleRepository.FilterBy(
-                filter => filter.Name != "test",
-                projection => projection.Name
-            );
-            return people;
+            var product = _ProductRepository.AsQueryable();
+            return Ok(product);
         }
+        [HttpGet("getProductData")]
+        public async Task<ActionResult> getProductData([FromQuery] string name)
+        {
+            var data = _ProductRepository.FilterBy(
+                filter => filter.Name == name
+                
+            );
+            return Ok(data);
+        }
+
     }
 }

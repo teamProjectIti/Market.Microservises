@@ -2,17 +2,19 @@
 using Catalog.Api.repositery.MangoRepo;
 using MongoDB.Bson;
 using MongoDB.Driver;
-using static Catalog.Api.repositery.Product.IMongoRepository;
 using System.Linq.Expressions;
 
-public class MongoRepository<TDocument> : IMongoRepository<TDocument>  where TDocument : baseMango
+public class MongoRepository<TDocument> : IMongoRepository<TDocument>
+    where TDocument : IbaseMango
 {
     private readonly IMongoCollection<TDocument> _collection;
 
     public MongoRepository(IMongoDbSettings settings)
     {
+
         var database = new MongoClient(settings.ConnectionString).GetDatabase(settings.DatabaseName);
         _collection = database.GetCollection<TDocument>(GetCollectionName(typeof(TDocument)));
+
     }
 
     private protected string GetCollectionName(Type documentType)

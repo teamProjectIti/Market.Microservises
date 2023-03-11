@@ -1,51 +1,46 @@
 ﻿using Catalog.Api.Entity.Mango;
 using System.Linq.Expressions;
 
-namespace Catalog.Api.repositery.Product
+public interface IMongoRepository<TDocument> where TDocument : IbaseMango
 {
-    public interface IMongoRepository
-    {
-        public interface IMongoRepository<T> where T : baseMango
-        {
-            IQueryable<T> AsQueryable();
+    IQueryable<TDocument> AsQueryable();
 
-            IEnumerable<T> FilterBy(
-                Expression<Func<T, bool>> filterExpression);
+    IEnumerable<TDocument> FilterBy(
+        Expression<Func<TDocument, bool>> filterExpression);
 
-            IEnumerable<TProjected> FilterBy<TProjected>(
-                Expression<Func<T, bool>> filterExpression,
-                Expression<Func<T, TProjected>> projectionExpression);
+    IEnumerable<TProjected> FilterBy<TProjected>(
+        Expression<Func<TDocument, bool>> filterExpression,
+        Expression<Func<TDocument, TProjected>> projectionExpression);
 
-            T FindOne(Expression<Func<T, bool>> filterExpression);
+    TDocument FindOne(Expression<Func<TDocument, bool>> filterExpression);
 
-            Task<T> FindOneAsync(Expression<Func<T, bool>> filterExpression);
+    Task<TDocument> FindOneAsync(Expression<Func<TDocument, bool>> filterExpression);
 
-            T FindById(string id);
+    TDocument FindById(string id);
 
-            Task<T> FindByIdAsync(string id);
+    Task<TDocument> FindByIdAsync(string id);
 
-            void InsertOne(T document);
+    void InsertOne(TDocument document);
 
-            Task InsertOneAsync(T document);
+    Task InsertOneAsync(TDocument document);
 
-            void InsertMany(ICollection<T> documents);
+    void InsertMany(ICollection<TDocument> documents);
 
-            Task InsertManyAsync(ICollection<T> documents);
+    Task InsertManyAsync(ICollection<TDocument> documents);
 
-            void ReplaceOne(T document);
+    void ReplaceOne(TDocument document);
 
-            Task ReplaceOneAsync(T document);
+    Task ReplaceOneAsync(TDocument document);
 
-            void DeleteOne(Expression<Func<T, bool>> filterExpression);
+    void DeleteOne(Expression<Func<TDocument, bool>> filterExpression);
 
-            Task DeleteOneAsync(Expression<Func<T, bool>> filterExpression);
+    Task DeleteOneAsync(Expression<Func<TDocument, bool>> filterExpression);
 
-            void DeleteById(string id);
+    void DeleteById(string id);
 
-            Task DeleteByIdAsync(string id);
+    Task DeleteByIdAsync(string id);
 
-            void DeleteMany(Expression<Func<T, bool>> filterExpression);
-            Task DeleteManyAsync(Expression<Func<T, bool>> filterExpression);
-        }
-    }
+    void DeleteMany(Expression<Func<TDocument, bool>> filterExpression);
+
+    Task DeleteManyAsync(Expression<Func<TDocument, bool>> filterExpression);
 }

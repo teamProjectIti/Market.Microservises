@@ -1,5 +1,4 @@
-﻿using static Catalog.Api.repositery.Product.IMongoRepository;
-
+﻿
 namespace Catalog.Api.Extention
 {
     public static class AddDependInjuctionMangoDb
