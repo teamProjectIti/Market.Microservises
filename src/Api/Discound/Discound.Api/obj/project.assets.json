@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\market\\Market.Microservises\\src\\Api\\Discound\\Discound.Api\\Discound.Api.csproj",
+      "projectUniqueName": "D:\\ecoMarket\\src\\Api\\Discound\\Discound.Api\\Discound.Api.csproj",
       "projectName": "Discound.Api",
-      "projectPath": "D:\\market\\Market.Microservises\\src\\Api\\Discound\\Discound.Api\\Discound.Api.csproj",
+      "projectPath": "D:\\ecoMarket\\src\\Api\\Discound\\Discound.Api\\Discound.Api.csproj",
       "packagesPath": "C:\\Users\\BeshoyAmen\\.nuget\\packages\\",
-      "outputPath": "D:\\market\\Market.Microservises\\src\\Api\\Discound\\Discound.Api\\obj\\",
+      "outputPath": "D:\\ecoMarket\\src\\Api\\Discound\\Discound.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BeshoyAmen\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\market\\Market.Microservises\\src\\Api\\catalog\\Catalog.Api\\Catalog.Api.csproj": {}
+    "D:\\ecoMarket\\src\\Api\\catalog\\Catalog.Api\\Catalog.Api.csproj": {}
   },
   "projects": {
-    "D:\\market\\Market.Microservises\\src\\Api\\catalog\\Catalog.Api\\Catalog.Api.csproj": {
+    "D:\\ecoMarket\\src\\Api\\catalog\\Catalog.Api\\Catalog.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\market\\Market.Microservises\\src\\Api\\catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectUniqueName": "D:\\ecoMarket\\src\\Api\\catalog\\Catalog.Api\\Catalog.Api.csproj",
         "projectName": "Catalog.Api",
-        "projectPath": "D:\\market\\Market.Microservises\\src\\Api\\catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectPath": "D:\\ecoMarket\\src\\Api\\catalog\\Catalog.Api\\Catalog.Api.csproj",
         "packagesPath": "C:\\Users\\BeshoyAmen\\.nuget\\packages\\",
-        "outputPath": "D:\\market\\Market.Microservises\\src\\Api\\catalog\\Catalog.Api\\obj\\",
+        "outputPath": "D:\\ecoMarket\\src\\Api\\catalog\\Catalog.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BeshoyAmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.2, )"
             },
             "MongoDB.Bson": {
               "target": "Package",

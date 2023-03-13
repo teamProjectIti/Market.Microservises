@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\market\\Market.Microservises\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj": {}
+    "D:\\ecoMarket\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj": {}
   },
   "projects": {
-    "D:\\market\\Market.Microservises\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj": {
+    "D:\\ecoMarket\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\market\\Market.Microservises\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj",
+        "projectUniqueName": "D:\\ecoMarket\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj",
         "projectName": "Basket.Api",
-        "projectPath": "D:\\market\\Market.Microservises\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj",
+        "projectPath": "D:\\ecoMarket\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj",
         "packagesPath": "C:\\Users\\BeshoyAmen\\.nuget\\packages\\",
-        "outputPath": "D:\\market\\Market.Microservises\\src\\Api\\basket\\Basket.Api\\obj\\",
+        "outputPath": "D:\\ecoMarket\\src\\Api\\basket\\Basket.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BeshoyAmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

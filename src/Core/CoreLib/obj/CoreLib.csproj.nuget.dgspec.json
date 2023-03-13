@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\market\\Market.Microservises\\src\\Core\\CoreLib\\CoreLib.csproj": {}
+    "D:\\ecoMarket\\src\\Core\\CoreLib\\CoreLib.csproj": {}
   },
   "projects": {
-    "D:\\market\\Market.Microservises\\src\\Core\\CoreLib\\CoreLib.csproj": {
+    "D:\\ecoMarket\\src\\Core\\CoreLib\\CoreLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\market\\Market.Microservises\\src\\Core\\CoreLib\\CoreLib.csproj",
+        "projectUniqueName": "D:\\ecoMarket\\src\\Core\\CoreLib\\CoreLib.csproj",
         "projectName": "CoreLib",
-        "projectPath": "D:\\market\\Market.Microservises\\src\\Core\\CoreLib\\CoreLib.csproj",
+        "projectPath": "D:\\ecoMarket\\src\\Core\\CoreLib\\CoreLib.csproj",
         "packagesPath": "C:\\Users\\BeshoyAmen\\.nuget\\packages\\",
-        "outputPath": "D:\\market\\Market.Microservises\\src\\Core\\CoreLib\\obj\\",
+        "outputPath": "D:\\ecoMarket\\src\\Core\\CoreLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BeshoyAmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
