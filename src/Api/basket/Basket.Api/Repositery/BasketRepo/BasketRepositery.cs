@@ -1,5 +1,6 @@
 ﻿using Basket.Api.Entity.Basket;
 using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
 
 namespace Basket.Api.Repositery.BasketRepo
 {
