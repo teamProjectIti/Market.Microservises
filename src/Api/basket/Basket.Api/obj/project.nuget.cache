@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GT4bAKVnuPjsIMbJwKq7L2WFl2HMM9E9CeIyVtHxR7EHuayFOWozOMBczzUNN4nVtanFqDdylW+q9m8hNO7ihg==",
+  "dgSpecHash": "55gEWnagubxFUyVn1SJGoNeVhpM+W/5OUkbsE5sFJqQZxOjzhw6UiASh68v7aOU+IQ8Y/AVaQyoZiGE4p77Q6Q==",
   "success": true,
   "projectFilePath": "D:\\ecoMarket\\src\\Api\\basket\\Basket.Api\\Basket.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
+    "C:\\Users\\BeshoyAmen\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
