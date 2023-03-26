@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ye6gk2rcA9fgO8qLPJ6VKKBhlwUM7SKr4cnw0CrlR9aVHnXn6WYXoTxndsIFHVaZW52epgnU3WcnmvRqxqv97g==",
+  "dgSpecHash": "rFYtcuX/fLYpdTLJzmVp/yS7cWom16l0Y+ErE72ThNzIN+Hh4jMv8iy3yYW5Us8fEfaHg5KcTMpcSdVIKT8c9Q==",
   "success": true,
-  "projectFilePath": "D:\\ecoMarket\\src\\Core\\CoreLib\\CoreLib.csproj",
+  "projectFilePath": "D:\\market fullstack\\src\\Core\\CoreLib\\CoreLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -229,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ecoMarket\\src\\Api\\Discound\\Discound.Api\\Discound.Api.csproj",
+      "projectUniqueName": "D:\\market fullstack\\src\\Api\\Discound\\Discound.Api\\Discound.Api.csproj",
       "projectName": "Discound.Api",
-      "projectPath": "D:\\ecoMarket\\src\\Api\\Discound\\Discound.Api\\Discound.Api.csproj",
+      "projectPath": "D:\\market fullstack\\src\\Api\\Discound\\Discound.Api\\Discound.Api.csproj",
       "packagesPath": "C:\\Users\\BeshoyAmen\\.nuget\\packages\\",
-      "outputPath": "D:\\ecoMarket\\src\\Api\\Discound\\Discound.Api\\obj\\",
+      "outputPath": "D:\\market fullstack\\src\\Api\\Discound\\Discound.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BeshoyAmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -286,7 +286,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

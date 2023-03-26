@@ -1,24 +1,39 @@
-D:\ecoMarket\bin\Debug\Catalog.Api.deps.json
-D:\ecoMarket\bin\Debug\Catalog.Api.runtimeconfig.json
-D:\ecoMarket\bin\Debug\appsettings.Development.json
-D:\ecoMarket\bin\Debug\appsettings.json
-D:\ecoMarket\bin\Debug\Catalog.Api.exe
-D:\ecoMarket\bin\Debug\Catalog.Api.dll
-D:\ecoMarket\bin\Debug\MongoDB.Driver.dll
-D:\ecoMarket\bin\Debug\MongoDB.Bson.dll
-D:\ecoMarket\bin\Debug\AutoMapper.dll
-D:\ecoMarket\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\ecoMarket\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\ecoMarket\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
-D:\ecoMarket\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\ecoMarket\bin\Debug\MongoDB.Driver.Core.dll
-D:\ecoMarket\bin\Debug\MongoDB.Libmongocrypt.dll
-D:\ecoMarket\bin\Debug\Microsoft.OpenApi.dll
-D:\ecoMarket\bin\Debug\DnsClient.dll
-D:\ecoMarket\bin\Debug\SharpCompress.dll
-D:\ecoMarket\bin\Debug\ZstdSharp.dll
-D:\ecoMarket\bin\Debug\Snappier.dll
-D:\ecoMarket\bin\Debug\Catalog.Api.pdb
-D:\ecoMarket\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
-D:\ecoMarket\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
-D:\ecoMarket\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\market fullstack\bin\Debug\Baskets.Api.deps.json
+D:\market fullstack\bin\Debug\Baskets.Api.runtimeconfig.json
+D:\market fullstack\bin\Debug\appsettings.Development.json
+D:\market fullstack\bin\Debug\appsettings.json
+D:\market fullstack\bin\Debug\Baskets.Api.exe
+D:\market fullstack\bin\Debug\Catalogs.deps.json
+D:\market fullstack\bin\Debug\Catalogs.runtimeconfig.json
+D:\market fullstack\bin\Debug\Catalogs.exe
+D:\market fullstack\bin\Debug\Baskets.Api.dll
+D:\market fullstack\bin\Debug\Catalogs.dll
+D:\market fullstack\bin\Debug\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\market fullstack\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\market fullstack\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\market fullstack\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\market fullstack\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\market fullstack\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\market fullstack\bin\Debug\Newtonsoft.Json.dll
+D:\market fullstack\bin\Debug\MongoDB.Driver.dll
+D:\market fullstack\bin\Debug\MongoDB.Bson.dll
+D:\market fullstack\bin\Debug\AutoMapper.dll
+D:\market fullstack\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\market fullstack\bin\Debug\MongoDB.Driver.Core.dll
+D:\market fullstack\bin\Debug\Microsoft.Extensions.Options.dll
+D:\market fullstack\bin\Debug\StackExchange.Redis.dll
+D:\market fullstack\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\market fullstack\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\market fullstack\bin\Debug\Microsoft.OpenApi.dll
+D:\market fullstack\bin\Debug\MongoDB.Libmongocrypt.dll
+D:\market fullstack\bin\Debug\DnsClient.dll
+D:\market fullstack\bin\Debug\SharpCompress.dll
+D:\market fullstack\bin\Debug\ZstdSharp.dll
+D:\market fullstack\bin\Debug\Snappier.dll
+D:\market fullstack\bin\Debug\Pipelines.Sockets.Unofficial.dll
+D:\market fullstack\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+D:\market fullstack\bin\Debug\Baskets.Api.pdb
+D:\market fullstack\bin\Debug\Catalogs.pdb
+D:\market fullstack\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\market fullstack\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\market fullstack\obj\Debug\docker-compose.dcproj.CopyComplete

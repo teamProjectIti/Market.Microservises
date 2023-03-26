@@ -34,3 +34,15 @@ D:\ecoMarket\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.dll
 D:\ecoMarket\src\Core\CoreLib\obj\Debug\net6.0\refint\CoreLib.dll
 D:\ecoMarket\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.pdb
 D:\ecoMarket\src\Core\CoreLib\obj\Debug\net6.0\ref\CoreLib.dll
+D:\market fullstack\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.deps.json
+D:\market fullstack\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.dll
+D:\market fullstack\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.pdb
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.csproj.AssemblyReference.cache
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.AssemblyInfoInputs.cache
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.AssemblyInfo.cs
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.csproj.CoreCompileInputs.cache
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.dll
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\refint\CoreLib.dll
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.pdb
+D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\ref\CoreLib.dll
