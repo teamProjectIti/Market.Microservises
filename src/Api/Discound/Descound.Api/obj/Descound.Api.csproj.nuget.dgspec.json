@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\market fullstack\\src\\Api\\Discound\\Descound.Api\\Descound.Api.csproj": {}
+    "D:\\Market\\src\\Api\\Discound\\Descound.Api\\Descound.Api.csproj": {}
   },
   "projects": {
-    "D:\\market fullstack\\src\\Api\\Discound\\Descound.Api\\Descound.Api.csproj": {
+    "D:\\Market\\src\\Api\\Discound\\Descound.Api\\Descound.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\market fullstack\\src\\Api\\Discound\\Descound.Api\\Descound.Api.csproj",
+        "projectUniqueName": "D:\\Market\\src\\Api\\Discound\\Descound.Api\\Descound.Api.csproj",
         "projectName": "Descound.Api",
-        "projectPath": "D:\\market fullstack\\src\\Api\\Discound\\Descound.Api\\Descound.Api.csproj",
+        "projectPath": "D:\\Market\\src\\Api\\Discound\\Descound.Api\\Descound.Api.csproj",
         "packagesPath": "C:\\Users\\BeshoyAmen\\.nuget\\packages\\",
-        "outputPath": "D:\\market fullstack\\src\\Api\\Discound\\Descound.Api\\obj\\",
+        "outputPath": "D:\\Market\\src\\Api\\Discound\\Descound.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BeshoyAmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.17.2, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

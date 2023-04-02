@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rFYtcuX/fLYpdTLJzmVp/yS7cWom16l0Y+ErE72ThNzIN+Hh4jMv8iy3yYW5Us8fEfaHg5KcTMpcSdVIKT8c9Q==",
+  "dgSpecHash": "xQhwoaWxO4i5+zNpEkU/Mrov8foSfam0E2r3OELhvd4ktufqOS76RQVB8K1nIdUOHPGyKD3ecAx0Vx8F4BvzGw==",
   "success": true,
-  "projectFilePath": "D:\\market fullstack\\src\\Core\\CoreLib\\CoreLib.csproj",
+  "projectFilePath": "D:\\Market\\src\\Core\\CoreLib\\CoreLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
