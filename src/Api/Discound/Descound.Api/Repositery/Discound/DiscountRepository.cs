@@ -2,62 +2,72 @@
 using Descound.Api.Entity;
 using Npgsql;
 
-namespace Descound.Api.Repositery.Discound
+namespace Descound.Api.Repositery.Discound;
+
+public class DiscountRepository : IDiscountRepository
 {
-    public class DiscountRepository<T> : IDiscountRepository<T> where T :class
+    private readonly IConfiguration _configuration;
+
+    public DiscountRepository(IConfiguration configuration)
     {
-        private readonly IConfiguration _configuration;
+        _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+    }
 
-        public DiscountRepository(IConfiguration configuration)
-        {
-            _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
-        }
+    public async Task<Coupon> GetDiscount(string productName)
+    {
+        using var connection = new NpgsqlConnection
+            (_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
 
-        public async Task<Coupon> AddAsync(T entity)
-        {
-            throw new NotImplementedException();
-        }
-        public async Task<Coupon> DeleteAsync(T entity)
-        {
-            throw new NotImplementedException();
-        }
+        var coupon = await connection.QueryFirstOrDefaultAsync<Coupon>
+            ("SELECT * FROM Coupon WHERE ProductName = @ProductName", new { ProductName = productName });
 
-        public Task<bool> DeleteAsync(int Id)
-        {
-            throw new NotImplementedException();
-        }
+        if (coupon == null)
+            return new Coupon
+            { ProductName = "No Discount", Amount = 0, Description = "No Discount Desc" };
 
-        public async Task<Coupon> GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
+        return coupon;
+    }
 
-        public async Task<Coupon> GetByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
+    public async Task<bool> CreateDiscount(Coupon coupon)
+    {
+        using var connection = new NpgsqlConnection
+            (_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
 
-        public async Task<Coupon> GetByNameAsync(string text)
-        {
-            using var connection = new NpgsqlConnection
-                (_configuration.GetConnectionString("ConnectionString"));
+        var affected =
+            await connection.ExecuteAsync
+                ("INSERT INTO Coupon (ProductName, Description, Amount) VALUES (@ProductName, @Description, @Amount)",
+                        new { coupon.ProductName, coupon.Description, coupon.Amount });
 
-            var coupondb = await connection.QueryFirstOrDefaultAsync<Coupon>
-                ("select * from coupon where productname=@text", new { ProductName = text });
+        if (affected == 0)
+            return false;
 
-            //if (coupondb is null)
-            //    res.AddParameter("Result", "Not Fount Any Discount");
+        return true;
+    }
 
-            //res.AddParameter("Coupon", coupondb);
+    public async Task<bool> UpdateDiscount(Coupon coupon)
+    {
+        using var connection = new NpgsqlConnection(_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
 
-            return new Coupon { };
-        }
+        var affected = await connection.ExecuteAsync
+                ("UPDATE Coupon SET ProductName=@ProductName, Description = @Description, Amount = @Amount WHERE Id = @Id",
+                        new { coupon.ProductName, coupon.Description, coupon.Amount, coupon.Id });
 
-        public async Task<Coupon> UpdateAsync(T entity)
-        {
-            throw new NotImplementedException();
-        }
+        if (affected == 0)
+            return false;
 
+        return true;
+    }
 
+    public async Task<bool> DeleteDiscount(string productName)
+    {
+        using var connection = new NpgsqlConnection(_configuration.GetValue<string>("DatabaseSettings:ConnectionString"));
+
+        var affected = await connection.ExecuteAsync("DELETE FROM Coupon WHERE ProductName = @ProductName",
+            new { ProductName = productName });
+
+        if (affected == 0)
+            return false;
+
+        return true;
     }
 }

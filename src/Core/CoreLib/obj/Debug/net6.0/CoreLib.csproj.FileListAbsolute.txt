@@ -46,3 +46,15 @@ D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.dll
 D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\refint\CoreLib.dll
 D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.pdb
 D:\market fullstack\src\Core\CoreLib\obj\Debug\net6.0\ref\CoreLib.dll
+D:\Market\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.deps.json
+D:\Market\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.dll
+D:\Market\src\Core\CoreLib\bin\Debug\net6.0\CoreLib.pdb
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.csproj.AssemblyReference.cache
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.AssemblyInfoInputs.cache
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.AssemblyInfo.cs
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.csproj.CoreCompileInputs.cache
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.dll
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\refint\CoreLib.dll
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\CoreLib.pdb
+D:\Market\src\Core\CoreLib\obj\Debug\net6.0\ref\CoreLib.dll

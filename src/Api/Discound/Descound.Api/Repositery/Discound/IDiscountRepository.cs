@@ -2,14 +2,12 @@
 
 namespace Descound.Api.Repositery.Discound
 {
-    public interface IDiscountRepository<T> where T : class
+    public interface IDiscountRepository
     {
-        Task<Coupon> GetByIdAsync(int id);
-        Task<Coupon> GetByNameAsync(string text);
-        Task<Coupon> GetAllAsync();
-        Task<Coupon> AddAsync(T entity);
-        Task<Coupon> UpdateAsync(T entity);
-        Task<Coupon> DeleteAsync(T entity);
-        Task<bool> DeleteAsync(int Id);
+        Task<Coupon> GetDiscount(string productName);
+
+        Task<bool> CreateDiscount(Coupon coupon);
+        Task<bool> UpdateDiscount(Coupon coupon);
+        Task<bool> DeleteDiscount(string productName);
     }
 }

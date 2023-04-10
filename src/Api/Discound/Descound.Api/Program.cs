@@ -10,7 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddScoped(typeof(IDiscountRepository<>), typeof(DiscountRepository<>));
+builder.Services.AddScoped(typeof(IDiscountRepository), typeof(DiscountRepository));
 
 //builder.Services.AddHealthChecks().AddNpgSql(builder.Configuration["DatabaseSettings:ConnectionString"]);
 
