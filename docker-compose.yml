@@ -36,10 +36,17 @@ services:
       context: .
       dockerfile: src/Api/Discound/Descound.Api/Dockerfile
 
+  discound.grpc:
+    image: ${DOCKER_REGISTRY-}discoundgrpc
+    build:
+      context: .
+      dockerfile: src/Api/Discound/Discound.Grpc/Dockerfile
+
 volumes:
   mongo_data:
   portainer_data:
   postgres_data:
   pgadmin_data:
+
 
 

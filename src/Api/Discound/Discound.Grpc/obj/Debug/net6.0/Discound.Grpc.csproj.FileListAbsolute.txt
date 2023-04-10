@@ -1,0 +1,6 @@
+D:\Market\src\Api\Discound\Discound.Grpc\obj\Debug\net6.0\Discound.Grpc.csproj.AssemblyReference.cache
+D:\Market\src\Api\Discound\Discound.Grpc\obj\Debug\net6.0\Discound.Grpc.GeneratedMSBuildEditorConfig.editorconfig
+D:\Market\src\Api\Discound\Discound.Grpc\obj\Debug\net6.0\Discound.Grpc.AssemblyInfoInputs.cache
+D:\Market\src\Api\Discound\Discound.Grpc\obj\Debug\net6.0\Discound.Grpc.AssemblyInfo.cs
+D:\Market\src\Api\Discound\Discound.Grpc\obj\Debug\net6.0\Discound.Grpc.csproj.CoreCompileInputs.cache
+D:\Market\src\Api\Discound\Discound.Grpc\obj\Debug\net6.0\Discound.Grpc.MvcApplicationPartsAssemblyInfo.cache
