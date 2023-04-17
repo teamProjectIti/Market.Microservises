@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Ordering.Doman\Ordering.Doman.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Behaviours\" />
+    <Folder Include="Features\Orders\Commands\" />
+    <Folder Include="Features\Orders\Queries\" />
+  </ItemGroup>
+
 </Project>
