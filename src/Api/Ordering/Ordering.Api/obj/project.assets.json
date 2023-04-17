@@ -95,6 +95,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Ordering.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Ordering.Doman": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ordering.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ordering.Application.dll": {}
+        }
+      },
+      "Ordering.Doman/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Ordering.Doman.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ordering.Doman.dll": {}
+        }
+      },
+      "Ordering.infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Ordering.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ordering.infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ordering.infrastructure.dll": {}
+        }
       }
     }
   },
@@ -304,11 +340,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Ordering.Application/1.0.0": {
+      "type": "project",
+      "path": "../Ordering.Application/Ordering.Application.csproj",
+      "msbuildProject": "../Ordering.Application/Ordering.Application.csproj"
+    },
+    "Ordering.Doman/1.0.0": {
+      "type": "project",
+      "path": "../Ordering.Doman/Ordering.Doman.csproj",
+      "msbuildProject": "../Ordering.Doman/Ordering.Doman.csproj"
+    },
+    "Ordering.infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Ordering.infrastructure/Ordering.infrastructure.csproj",
+      "msbuildProject": "../Ordering.infrastructure/Ordering.infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.2",
+      "Ordering.Application >= 1.0.0",
+      "Ordering.infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -338,7 +391,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Market\\src\\Api\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
+              "projectPath": "D:\\Market\\src\\Api\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
+            },
+            "D:\\Market\\src\\Api\\Ordering\\Ordering.infrastructure\\Ordering.infrastructure.csproj": {
+              "projectPath": "D:\\Market\\src\\Api\\Ordering\\Ordering.infrastructure\\Ordering.infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

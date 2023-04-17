@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ordering.Doman\Ordering.Doman.csproj" />
+  </ItemGroup>
+
 </Project>
