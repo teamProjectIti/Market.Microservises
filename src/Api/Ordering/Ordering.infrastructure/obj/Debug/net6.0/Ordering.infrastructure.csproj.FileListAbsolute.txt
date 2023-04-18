@@ -1,0 +1,17 @@
+D:\Market\src\Api\Ordering\Ordering.infrastructure\bin\Debug\net6.0\Ordering.infrastructure.deps.json
+D:\Market\src\Api\Ordering\Ordering.infrastructure\bin\Debug\net6.0\Ordering.infrastructure.dll
+D:\Market\src\Api\Ordering\Ordering.infrastructure\bin\Debug\net6.0\Ordering.infrastructure.pdb
+D:\Market\src\Api\Ordering\Ordering.infrastructure\bin\Debug\net6.0\Ordering.Application.dll
+D:\Market\src\Api\Ordering\Ordering.infrastructure\bin\Debug\net6.0\Ordering.Doman.dll
+D:\Market\src\Api\Ordering\Ordering.infrastructure\bin\Debug\net6.0\Ordering.Application.pdb
+D:\Market\src\Api\Ordering\Ordering.infrastructure\bin\Debug\net6.0\Ordering.Doman.pdb
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\Ordering.infrastructure.csproj.AssemblyReference.cache
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\Ordering.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\Ordering.infrastructure.AssemblyInfoInputs.cache
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\Ordering.infrastructure.AssemblyInfo.cs
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\Ordering.infrastructure.csproj.CoreCompileInputs.cache
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\Ordering.infrastructure.csproj.CopyComplete
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\Ordering.infrastructure.dll
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\refint\Ordering.infrastructure.dll
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\Ordering.infrastructure.pdb
+D:\Market\src\Api\Ordering\Ordering.infrastructure\obj\Debug\net6.0\ref\Ordering.infrastructure.dll

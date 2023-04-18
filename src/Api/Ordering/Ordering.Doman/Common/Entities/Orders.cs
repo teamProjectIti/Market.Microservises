@@ -2,7 +2,7 @@
 
 namespace Ordering.Doman.Common.Entities
 {
-    public class Order : BaseEntity
+    public class Orders : BaseEntity
     {
         public string UserName { get; set; } = string.Empty;
         public decimal TotalPrice { get; set; }

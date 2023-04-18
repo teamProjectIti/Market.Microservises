@@ -10,3 +10,6 @@ D:\Market\src\Api\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Applic
 D:\Market\src\Api\Ordering\Ordering.Application\obj\Debug\net6.0\refint\Ordering.Application.dll
 D:\Market\src\Api\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.pdb
 D:\Market\src\Api\Ordering\Ordering.Application\obj\Debug\net6.0\ref\Ordering.Application.dll
+D:\Market\src\Api\Ordering\Ordering.Application\bin\Debug\net6.0\Ordering.Doman.dll
+D:\Market\src\Api\Ordering\Ordering.Application\bin\Debug\net6.0\Ordering.Doman.pdb
+D:\Market\src\Api\Ordering\Ordering.Application\obj\Debug\net6.0\Ordering.Application.csproj.CopyComplete

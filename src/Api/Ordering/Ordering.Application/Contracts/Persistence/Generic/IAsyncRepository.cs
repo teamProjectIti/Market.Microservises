@@ -16,7 +16,7 @@ namespace Ordering.Application.Contracts.Persistence.Generic
                                        List<Expression<Func<T, object>>> includes = null,
                                        bool disableTracking = true);
 
-        Task<T> GetEntityAsync(Expression<Func<T, bool>> predicate,
+        Task<T> GetEntityAsync(Expression<Func<T, bool>> filter = null,
                                        List<Expression<Func<T, object>>> includes = null,
                                        bool disableTracking = true);
 

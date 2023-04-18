@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 
 namespace Ordering.Application.Contracts.Persistence.Order
 {
-    public interface IOrderRepository : IAsyncRepository<Order>
+    public interface IOrderRepository : IAsyncRepository<Orders>
     {
-        Task<IEnumerable<Order>> GetOrdersByUserName(string userName);
+        Task<IEnumerable<Orders>> GetOrdersByUserName(string userName);
     }
 }

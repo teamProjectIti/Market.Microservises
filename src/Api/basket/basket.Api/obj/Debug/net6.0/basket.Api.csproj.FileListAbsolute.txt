@@ -52,3 +52,10 @@ D:\Market\src\Api\basket\basket.Api\obj\Debug\net6.0\refint\basket.Api.dll
 D:\Market\src\Api\basket\basket.Api\obj\Debug\net6.0\basket.Api.pdb
 D:\Market\src\Api\basket\basket.Api\obj\Debug\net6.0\basket.Api.genruntimeconfig.cache
 D:\Market\src\Api\basket\basket.Api\obj\Debug\net6.0\ref\basket.Api.dll
+D:\Market\src\Api\basket\basket.Api\bin\Debug\net6.0\Google.Protobuf.dll
+D:\Market\src\Api\basket\basket.Api\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
+D:\Market\src\Api\basket\basket.Api\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll
+D:\Market\src\Api\basket\basket.Api\bin\Debug\net6.0\Grpc.Core.Api.dll
+D:\Market\src\Api\basket\basket.Api\bin\Debug\net6.0\Grpc.Net.Client.dll
+D:\Market\src\Api\basket\basket.Api\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
+D:\Market\src\Api\basket\basket.Api\bin\Debug\net6.0\Grpc.Net.Common.dll

@@ -30,3 +30,15 @@ D:\Market\src\Api\Ordering\Ordering.Api\obj\Debug\net6.0\refint\Ordering.Api.dll
 D:\Market\src\Api\Ordering\Ordering.Api\obj\Debug\net6.0\Ordering.Api.pdb
 D:\Market\src\Api\Ordering\Ordering.Api\obj\Debug\net6.0\Ordering.Api.genruntimeconfig.cache
 D:\Market\src\Api\Ordering\Ordering.Api\obj\Debug\net6.0\ref\Ordering.Api.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Application.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Doman.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.infrastructure.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Application.pdb
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.infrastructure.pdb
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\Ordering.Doman.pdb
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\AutoMapper.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\FluentValidation.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\MediatR.dll
+D:\Market\src\Api\Ordering\Ordering.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

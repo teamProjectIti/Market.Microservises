@@ -1,4 +1,5 @@
-﻿using Ordering.Application.Contracts.Persistence.Order;
+﻿using AutoMapper;
+using Ordering.Application.Contracts.Persistence.Order;
 
 namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
 {
@@ -14,7 +15,7 @@ namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
         }
         public async Task<List<OrdersVm>> Handle(GetOrdersListQuery request,CancellationToken cancellationToken)
         {
-            var orderList = _orderRepository.GetEntityAsync(x =>x == request.UserName);
+            var orderList = _orderRepository.GetEntityAsync(x =>x.UserName == request.UserName);
                             
                 return _mapper.Map<List<OrdersVm>>(orderList);
 
