@@ -7,5 +7,6 @@
         public DateTime CreatedDate { get; set; }
         public string LastModifiedBy { get; set; } = string.Empty;
         public DateTime? LastModifiedDate { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

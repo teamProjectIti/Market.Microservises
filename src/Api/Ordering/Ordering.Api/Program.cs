@@ -1,8 +1,6 @@
 
-using Microsoft.Extensions.Configuration;
 using Ordering.Application;
 using Ordering.infrastructure;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

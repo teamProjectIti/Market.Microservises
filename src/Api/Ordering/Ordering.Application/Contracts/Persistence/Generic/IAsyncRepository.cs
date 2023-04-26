@@ -19,6 +19,7 @@ namespace Ordering.Application.Contracts.Persistence.Generic
         Task<T> GetEntityAsync(Expression<Func<T, bool>> filter = null,
                                        List<Expression<Func<T, object>>> includes = null,
                                        bool disableTracking = true);
+        T GetEntity(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[] includes);
 
         Task<T> GetByIdAsync(long id);
         Task<T> AddAsync(T entity);
