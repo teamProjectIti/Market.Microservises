@@ -2,9 +2,6 @@
 using Ordering.Application.Contracts.Persistence.Generic;
 using Ordering.Doman.Common.EntityBase;
 using Ordering.infrastructure.Persistence;
-using SendGrid.Helpers.Mail;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
 
 namespace Ordering.infrastructure.Repositeries
