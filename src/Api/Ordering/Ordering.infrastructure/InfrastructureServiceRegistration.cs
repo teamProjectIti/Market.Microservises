@@ -16,10 +16,12 @@ namespace Ordering.infrastructure
     {
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<MyContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("OrderingConnectionString")));
+           
+            services.AddDbContext<MyContext>(x =>
+                 x.UseSqlServer(configuration.GetConnectionString("OrderingConnectionString")));
 
-          services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
+
+            services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
             services.AddScoped<IOrderRepository, OrderRepository>();
 
             services.Configure<EmailSettings>(c => configuration.GetSection("EmailSettings"));

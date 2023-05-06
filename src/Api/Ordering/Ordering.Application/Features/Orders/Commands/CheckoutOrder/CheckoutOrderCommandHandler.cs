@@ -4,7 +4,6 @@ using Microsoft.Extensions.Logging;
 using Ordering.Application.Contracts.Infrastructure;
 using Ordering.Application.Contracts.Persistence.Order;
 using Ordering.Application.Models;
-using Ordering.Doman.Common.Entities;
 
 namespace Ordering.Application.Features.Orders.Commands.CheckoutOrder
 {

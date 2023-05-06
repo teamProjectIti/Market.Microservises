@@ -27,13 +27,13 @@ namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
 
         public async Task<Unit> Handle(DeleteOrderCommand request, CancellationToken cancellationToken)
         {
-            var orderToDelete = await _orderRepository.GetByIdAsync(request.Id);
+            var orderToDelete = await _orderRepository.GetEntityAsync(x=>x.Id==request.Id);
             if (orderToDelete == null)
             {
                 throw new NotFoundException(nameof(Doman.Common.Entities.Orders), request.Id);
             }
 
-            await _orderRepository.DeleteAsync(orderToDelete);
+              _orderRepository.Remove(orderToDelete);
             _logger.LogInformation($"Order {orderToDelete.Id} is successfully deleted.");
 
             return Unit.Value;

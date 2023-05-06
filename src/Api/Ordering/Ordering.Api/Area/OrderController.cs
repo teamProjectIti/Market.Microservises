@@ -42,7 +42,7 @@ namespace Ordering.Api.Area
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesDefaultResponseType]
-        public async Task<ActionResult> UpdateOrder([FromBody] CheckoutOrderCommand command)
+        public async Task<ActionResult> UpdateOrder([FromBody] UpdateCheckoutOrderCommand command)
         {
             await _mediator.Send(command);
             return NoContent();

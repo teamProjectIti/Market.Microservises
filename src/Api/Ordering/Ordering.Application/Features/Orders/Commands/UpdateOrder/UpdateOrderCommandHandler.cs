@@ -10,7 +10,7 @@ using Ordering.Application.Features.Orders.Commands.CheckoutOrder;
 
 namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
 {
-    public class UpdateOrderCommandHandler : IRequestHandler<CheckoutOrderCommand, long>
+    public class UpdateOrderCommandHandler : IRequestHandler<UpdateCheckoutOrderCommand, long>
     {
 
         private readonly IOrderRepository _orderRepository;
@@ -26,15 +26,15 @@ namespace Ordering.Application.Features.Orders.Commands.UpdateOrder
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        public async Task<long> Handle(CheckoutOrderCommand request, CancellationToken cancellationToken)
+        public async Task<long> Handle(UpdateCheckoutOrderCommand request, CancellationToken cancellationToken)
         {
-                var orderToUpdate = await _orderRepository.GetByIdAsync((long)request.Id);
+                var orderToUpdate = await _orderRepository.GetEntityAsync(x=>x.Id==request.Id);
 
                 if (orderToUpdate == null)
                 {
                     throw new NotFoundException(nameof(Doman.Common.Entities.Orders), request.Id);
                 }
-                _mapper.Map(request, orderToUpdate, typeof(CheckoutOrderCommand), typeof(Doman.Common.Entities.Orders));
+                _mapper.Map(request, orderToUpdate, typeof(UpdateCheckoutOrderCommand), typeof(Doman.Common.Entities.Orders));
                 await _orderRepository.UpdateAsync(orderToUpdate);
 
 

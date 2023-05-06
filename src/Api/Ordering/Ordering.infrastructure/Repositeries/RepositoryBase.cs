@@ -2,6 +2,7 @@
 using Ordering.Application.Contracts.Persistence.Generic;
 using Ordering.Doman.Common.EntityBase;
 using Ordering.infrastructure.Persistence;
+using SendGrid.Helpers.Mail;
 using System.Linq.Expressions;
 
 namespace Ordering.infrastructure.Repositeries
@@ -71,11 +72,11 @@ namespace Ordering.infrastructure.Repositeries
             await _dbContext.SaveChangesAsync();
         }
 
-        public async Task DeleteAsync(T entity)
-        {
-            _dbContext.Set<T>().Remove(entity);
-            await _dbContext.SaveChangesAsync();
-        }
+        //public async Task DeleteAsync(T entity)
+        //{
+        //    _dbContext.Set<T>().Remove(entity);
+        //    await _dbContext.SaveChangesAsync();
+        //}
 
         public virtual T GetEntity(Expression<Func<T, bool>> filter, params Expression<Func<T, object>>[] includes)
         {
@@ -107,15 +108,38 @@ namespace Ordering.infrastructure.Repositeries
             T _dbSet;
             if (filter != null)
             {
-                _dbSet = await _dbContext.Set<T>().FirstOrDefaultAsync(filter);
+                _dbSet = await _dbContext.Set<T>().Where(x=>!x.IsDeleted).FirstOrDefaultAsync(filter);
             }
             else
             {
-                _dbSet = await _dbContext.Set<T>().FirstOrDefaultAsync();
+                _dbSet = await _dbContext.Set<T>().Where(x => !x.IsDeleted).FirstOrDefaultAsync();
             }
 
             return _dbSet;
         }
 
+        public void Remove(T entity)
+        {
+            _dbContext.Set<T>().Remove(entity);
+              _dbContext.SaveChangesAsync();
+
+        }
+
+        public void RemoveRange(IList<T> entities)
+        {
+            _dbContext.Set<T>().RemoveRange(entities);
+              _dbContext.SaveChangesAsync();
+        }
+
+        public async Task<int> DeleteRangeAsync(List<T> entities)
+        {
+            _dbContext.Set<T>().RemoveRange(entities);
+            return await _dbContext.SaveChangesAsync();
+        }
+        public async Task<int> DeleteAsync(T entity)
+        {
+            _dbContext.Set<T>().Remove(entity);
+            return await _dbContext.SaveChangesAsync();
+        }
     }
 }

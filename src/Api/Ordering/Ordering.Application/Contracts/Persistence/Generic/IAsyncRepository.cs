@@ -23,7 +23,12 @@ namespace Ordering.Application.Contracts.Persistence.Generic
 
         Task<T> GetByIdAsync(long id);
         Task<T> AddAsync(T entity);
+
+        void Remove(T entity);
+        void RemoveRange(IList<T> entity);
         Task UpdateAsync(T entity);
-        Task DeleteAsync(T entity);
+       // Task DeleteAsync(T entity);
+        Task<int> DeleteAsync(T entity);
+        Task<int> DeleteRangeAsync(List<T> entities);
     }
 }

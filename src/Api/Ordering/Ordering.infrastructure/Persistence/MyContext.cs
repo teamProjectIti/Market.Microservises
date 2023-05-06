@@ -11,6 +11,7 @@ namespace Ordering.infrastructure.Persistence
         {
         }
 
+
         public DbSet<Orders> Orders { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
@@ -20,13 +21,20 @@ namespace Ordering.infrastructure.Persistence
                 switch (entry.State)
                 {
                     case EntityState.Added:
-                        entry.Entity.CreatedDate = DateTime.Now;
                         entry.Entity.CreatedBy = "swn";
+                        entry.Entity.IsDeleted = false;
                         break;
                     case EntityState.Modified:
                         entry.Entity.LastModifiedDate = DateTime.Now;
                         entry.Entity.LastModifiedBy = "swn";
+                        entry.Entity.IsDeleted = false;
                         break;
+
+                    case EntityState.Deleted:
+                        entry.State = EntityState.Modified;
+                        entry.Entity.IsDeleted = true;
+                        break;
+
                 }
             }
 

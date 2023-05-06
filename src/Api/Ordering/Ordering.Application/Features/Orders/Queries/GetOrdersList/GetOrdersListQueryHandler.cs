@@ -17,8 +17,10 @@ namespace Ordering.Application.Features.Orders.Queries.GetOrdersList
         public async Task<List<OrdersVm>> Handle(GetOrdersListQuery request, CancellationToken cancellationToken)
         {
             var orderList = _orderRepository.GetEntityAsync(x => x.UserName == request.UserName);
-
+            if(orderList is not  null)
             return _mapper.Map<List<OrdersVm>>(orderList);
+
+            return new List<OrdersVm>();
         }
     }
 }
