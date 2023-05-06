@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wltk966ajdt6IxlyCeSy5fWzozKCXd1oEwKCDomof7QClZazqCgUeOoXn9wdi1AGWkK7fDCBusp6p2+4VLKMPA==",
+  "dgSpecHash": "eKGxbzUblVgwrRo1TnLiigi0XxRMAKoqmF3D3ttZzejgY5bWhB8+z1XaUG7Z9b8LYcmSF95rGDVrpyQx6H1Z9g==",
   "success": true,
   "projectFilePath": "D:\\Market\\src\\Api\\basket\\basket.Api\\basket.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\BeshoyAmen\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\google.protobuf\\3.21.5\\google.protobuf.3.21.5.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\grpc.aspnetcore\\2.49.0\\grpc.aspnetcore.2.49.0.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\grpc.aspnetcore.server\\2.49.0\\grpc.aspnetcore.server.2.49.0.nupkg.sha512",
@@ -13,6 +14,7 @@
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\grpc.net.clientfactory\\2.49.0\\grpc.net.clientfactory.2.49.0.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\grpc.net.common\\2.49.0\\grpc.net.common.2.49.0.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\grpc.tools\\2.49.0\\grpc.tools.2.49.0.nupkg.sha512",
+    "C:\\Users\\BeshoyAmen\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\BeshoyAmen\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\7.0.2\\microsoft.extensions.caching.stackexchangeredis.7.0.2.nupkg.sha512",

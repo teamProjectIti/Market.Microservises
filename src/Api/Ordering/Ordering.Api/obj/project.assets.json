@@ -1801,6 +1801,16 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "EventBus.Message/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EventBus.Message.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBus.Message.dll": {}
+        }
+      },
       "Ordering.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -5975,6 +5985,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "EventBus.Message/1.0.0": {
+      "type": "project",
+      "path": "../../../BlackEvent/EventBus.Message/EventBus.Message.csproj",
+      "msbuildProject": "../../../BlackEvent/EventBus.Message/EventBus.Message.csproj"
+    },
     "Ordering.Application/1.0.0": {
       "type": "project",
       "path": "../Ordering.Application/Ordering.Application.csproj",
@@ -5993,6 +6008,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "EventBus.Message >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.2",
@@ -6033,6 +6049,9 @@
             },
             "D:\\Market\\src\\Api\\Ordering\\Ordering.infrastructure\\Ordering.infrastructure.csproj": {
               "projectPath": "D:\\Market\\src\\Api\\Ordering\\Ordering.infrastructure\\Ordering.infrastructure.csproj"
+            },
+            "D:\\Market\\src\\BlackEvent\\EventBus.Message\\EventBus.Message.csproj": {
+              "projectPath": "D:\\Market\\src\\BlackEvent\\EventBus.Message\\EventBus.Message.csproj"
             }
           }
         }
