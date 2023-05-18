@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using EventBus.Message.Events;
+using MassTransit;
 using MediatR;
 using Ordering.Application.Features.Orders.Commands.CheckoutOrder;
 

@@ -4,6 +4,7 @@ using basket.Api.Entity.Basket;
 using basket.Api.Entity.CeckOut;
 using basket.Api.Repositery.BasketRepo;
 using EventBus.Message.Events;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 

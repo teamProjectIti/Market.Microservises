@@ -92,3 +92,11 @@ D:\Market\bin\Debug\Grpc.Core.Api.dll
 D:\Market\bin\Debug\Grpc.AspNetCore.Server.dll
 D:\Market\bin\Debug\Grpc.Net.Common.dll
 D:\Market\bin\Debug\Discound.Grpc.pdb
+D:\Market\bin\Debug\MassTransit.dll
+D:\Market\bin\Debug\EventBus.Message.dll
+D:\Market\bin\Debug\GreenPipes.dll
+D:\Market\bin\Debug\Automatonymous.dll
+D:\Market\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Market\bin\Debug\NewId.dll
+D:\Market\bin\Debug\Newtonsoft.Json.Bson.dll
+D:\Market\bin\Debug\EventBus.Message.pdb
